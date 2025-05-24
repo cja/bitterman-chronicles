@@ -3,7 +3,6 @@ import Header from '../components/Header.jsx';
 
 export default function Home() {
   return (
-<>
       <Header />
     <main style={{ backgroundColor: 'black', color: 'lime', fontFamily: 'monospace', minHeight: '100vh', padding: '2rem' }}>
       <h1>Bitterman Chronicles</h1>
