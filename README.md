@@ -1,3 +1,3 @@
 # Bitterman Chronicles
 
-Retro archiv v Next.js
+Opravená verze s fragmentem v index.js
