@@ -2,6 +2,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useState } from 'react';
+import { Web3Button } from "@thirdweb-dev/react";
 
 export default function IsLive() {
   const [address, setAddress] = useState('');
@@ -41,34 +42,17 @@ export default function IsLive() {
         </div>
 
         <form onSubmit={handleSubmit} style={{ textAlign: 'center' }}>
-          <label>
-            Vlož svou Polygon adresu:
-            <br />
-            <input
-              type="text"
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
-              style={{ width: '100%', maxWidth: '400px', padding: '0.5rem', fontFamily: 'monospace', marginTop: '0.5rem', background: 'transparent', color: 'lime' }}
-              placeholder="0x..."
-            />
-          </label>
-          <br />
-          <button
-            type="submit"
-            style={{
-              marginTop: '1rem',
-              backgroundColor: 'black',
-              color: 'lime',
-              border: '2px solid lime',
-              padding: '0.5rem 1rem',
-              fontFamily: 'monospace',
-              cursor: 'pointer'
-            }}
-          >
-            CLAIM
-          </button>
-          {error && <p style={{ color: 'red', marginTop: '1rem' }}>{error}</p>}
-          {submitted && <p style={{ color: 'lime', marginTop: '1rem' }}>Adresa odeslána. NFT bude přidělen na testnetu.</p>}
+ 
+
+
+
+<Web3Button
+  contractAddress="0xb48a9Ef69AD5Ec4719b80614Aa0C477F0CEFB809"
+  action={(contract) => contract.erc721.claim(1)}
+>
+  CLAIM NFT
+</Web3Button>
+
         </form>
       </main>
       <Footer />
