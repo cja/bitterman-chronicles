@@ -1,0 +1,21 @@
+{
+  "name": "BITTERMAN IS LIVE",
+  "description": "Vzpomínka na spuštění webu Bitterman Chronicles. NFT vytvořený pro ty, kdo byli u toho.",
+  "image": "https://raw.githubusercontent.com/cja/bitterman-chronicles/42cebf8f230e18f953c3c6cfca0faf35993a9ce5/public/images/bitterman_live_matrix.png",
+  "external_url": "https://bitterman-chronicles.vercel.app/is_live",
+  "attributes": [
+    {
+      "trait_type": "Launch Event",
+      "value": "Genesis Drop"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Polygon Mumbai"
+    },
+    {
+      "trait_type": "Status",
+      "value": "Claimed"
+    }
+  ]
+}
+
