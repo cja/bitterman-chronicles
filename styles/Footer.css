@@ -1,6 +1,9 @@
 body{
 margin: 0;
 }
+#__next{
+width: fit-content;
+}
 .footer-container {
   background-color: black;
   color: lime;
