@@ -1,0 +1,42 @@
+body{
+margin: 0;
+}
+.footer-container {
+  background-color: black;
+  color: lime;
+  font-family: monospace;
+  border-top: 2px solid lime;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-block {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-title {
+  margin: 0;
+}
+
+.footer-link {
+  margin: 0.5rem 30%;
+  text-align: left;
+  display: flex;
+ /* justify-content: center; */
+}
+
+.footer-link a {
+  color: lime;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  filter: brightness(1.5) saturate(2);
+  font-size: 125%;
+}
+
+.footer-link a:hover {
+  opacity: 1;
+}
