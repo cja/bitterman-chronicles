@@ -3,7 +3,8 @@ margin: 0;
 background-color:black;
 }
 #__next{
-width: fit-content;
+/*width: fit-content; mobile*/
+width: 100%;
 }
 .footer-container {
   background-color: black;

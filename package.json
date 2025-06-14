@@ -10,7 +10,7 @@
     "@thirdweb-dev/react": "^4.6.12",
     "@thirdweb-dev/sdk": "^4.0.73",
     "ethers": "^5.8.0",
-    "next": "latest",
+    "next": "^15.3.3",
     "react": "latest",
     "react-dom": "latest"
   }
